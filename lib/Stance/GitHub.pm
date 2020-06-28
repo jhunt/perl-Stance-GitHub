@@ -135,4 +135,14 @@ sub orgs {
 	return map { Stance::GitHub::Organization->new($self, $_) } @{ $self->get('/user/orgs') };
 }
 
+=head1 NAME
+
+Stance::GitHub - A Perl Interface to GitHub
+
+=head1 DESCRIPTION
+
+C<Stance::GitHub> provides an object-oriented interface to the GitHub v3 API.
+
+=end
+
 1;

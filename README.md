@@ -8,6 +8,18 @@ proof-of-concept application ideas, using Perl.
 This library in particular provides access to the GitHub API,
 either for github.com, or on-premise GitHub Enterprise.
 
+Installation
+------------
+
+The best way to get this module on your local system is via CPAN:
+
+    cpanm Stance::GitHub
+
+If you want to build it from source, using this repository:
+
+    perl Makefile.PL
+    make
+
 Usage
 -----
 
